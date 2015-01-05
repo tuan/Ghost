@@ -11,7 +11,6 @@ config = {
     // Configure your URL and mail settings here
     production: {
         url: 'http://tuan-blog-vi.azurewebsites.net',
-        urlSSL: 'https://tuan-blog-vi.azurewebsites.net',
         mail: {
           transport: 'SMTP',
           options: {
@@ -36,7 +35,7 @@ config = {
             port: process.env.PORT
         },
 
-        forceAdminSSL: {redirect: false}
+        forceAdminSSL: true
     },
 
     // ### Development **(default)**
