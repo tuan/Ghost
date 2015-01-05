@@ -35,7 +35,7 @@ config = {
             port: process.env.PORT
         },
 
-        forceAdminSSL: true
+        forceAdminSSL: {redirect: false}
     },
 
     // ### Development **(default)**
