@@ -10,7 +10,7 @@ config = {
     // When running Ghost in the wild, use the production environment
     // Configure your URL and mail settings here
     production: {
-        url: 'http://tuan-blog.azurewebsites.net',
+        url: 'http://blog.tuannguyena.com',
         mail: {
           transport: 'SMTP',
           options: {
